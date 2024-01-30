@@ -21,7 +21,7 @@ import (
 
 const (
 	kDebugMode       = false
-	kBatchSize       = 150
+	kBatchSize       = 130
 	kRoughTokenCount = 512
 
 	kStreamTotalCount       = 4

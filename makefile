@@ -8,3 +8,4 @@ compile:
 
 fmt:
 	gofmt -w cmd/embedding.go
+	gofmt -w tools/*.go
