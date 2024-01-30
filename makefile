@@ -5,3 +5,6 @@
 # sed '/"/d' < in >out
 compile:
 	go build -o /dev/null cmd/embedding.go
+
+fmt:
+	gofmt -w cmd/embedding.go
