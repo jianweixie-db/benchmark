@@ -7,5 +7,5 @@ compile:
 	go build -o /dev/null cmd/embedding.go
 
 fmt:
-	gofmt -w cmd/embedding.go
-	gofmt -w tools/*.go
+	gofmt -w -l cmd/*.go
+	gofmt -w -l tools/*.go
